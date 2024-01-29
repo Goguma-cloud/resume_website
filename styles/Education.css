@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.homePage {
+    /*margin: 5vh 10vh;*/
+    background-color: rgb(180, 180, 180);
+    height: 60vh;
+    min-height:4000px;
+    /*box-shadow: 20px 50px 80px rgba(0, 0, 0, 0.7);*/
+    border-radius: 40px;
+    /*background: white;*/
+    background: linear-gradient(to right, rgb(253, 253, 255), rgb(130, 114, 114));
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    border:solid;
+    border-color: rgb(96, 111, 112);
+    border-width:8px;
+    background-color:linear-gradient(to right, rgb(126, 126, 126), rgb(253, 253, 255));
+    border-radius: 40px;
+}
+
+.welcome {
+    padding-left: 2vw;
+    padding-top: 20px;
+    font-size: 100px;
+    color: black;
+    align-content: left;
+}
+
+.headerButtons {
+    display: flex;
+    flex-direction: columns;
+    gap: 8px;
+    border: solid;
+    background-color: rgb(175, 170, 170);
+    padding: 20px 10px 20px 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.headerButtons button {
+    border-radius: 100px;
+    width: 9vw;
+    min-width: 80px;
+    height: 80px;
+    font-weight: bolder;
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.4);
+    cursor:pointer;
+}
+
+.headerButtons button:hover{
+    background-color:black;
+    color:white;
+}
+
+.educationInfo{
+    margin: 20px;
+    font-size:30px;
+}
+
+.school{
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.details{
+    font-size:25px;
+}
+
+.schoolAwards ul{
+    list-style-type:circle;
+}
+
+.classTakenTitle{
+    font-size:40px;
+    font-weight: bold;
+    Margin-bottom:30px;
+}
+.classList{
+    margin-top:0px;
+}
+
+.semester{
+    border:solid;
+    font-size:50px;
+    Margin-top:20px;
+    padding: 20px;
+    border-radius:30px;
+}
+.semDate{
+    text-decoration:underline;
+}
+.classContainer{
+    margin-top:10px;
+    display:flex;
+    flex-direction:columns;
+    
+}
+.classLeft{
+    margin-top:10px;
+    width: 77vw;
+}
+.classRight button{
+    width:300px;
+    height: 50px;
+    font-size:20px;
+    border-radius:20px;
+    cursor:pointer;
+}
+.classRight button:hover{
+    background-color:black;
+    color:white;
+}
+
+@media only screen and (max-width: 450px){
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .homePage {
+        height:auto;
+        width: auto;
+    }
+    
+    .header {
+        display: grid;
+        margin:0px;
+        padding:0px;
+    }
+    
+    .welcome {
+        font-size: 50px;
+    }
+    
+    .headerButtons {
+        width: 91vw;
+        border-radius: 30px;
+        gap: 3px;
+        padding:5px;
+        margin:0px;
+    }
+    
+    .headerButtons button {
+        width: 83px;
+        font-weight: bolder;
+        box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.4);
+        cursor:pointer;
+    }
+    
+    .headerButtons button:hover{
+        background-color:black;
+        color:white;
+        border:none;
+    }
+
+    .classContainer{
+        margin-top:10px;
+        display:grid; 
+        font-size:20px;
+    }
+    .classRight button{
+        width:150px;
+        height: 50px;
+        font-size:20px;
+        border-radius:20px;
+        cursor:pointer;
+    }
+}

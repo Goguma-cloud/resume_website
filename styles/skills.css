@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.homePage {
+    /*margin: 5vh 10vh;*/
+    background-color: rgb(180, 180, 180);
+    height: 120vh;
+    min-height: 1000px;
+    /*box-shadow: 20px 50px 80px rgba(0, 0, 0, 0.7);*/
+    border-radius: 40px;
+    /*background: white;*/
+    background: linear-gradient(to right, rgb(253, 253, 255), rgb(130, 114, 114));
+    min-width: 1130px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    border:solid;
+    border-color: rgb(96, 111, 112);
+    border-width:8px;
+    background-color:linear-gradient(to right, rgb(126, 126, 126), rgb(253, 253, 255));
+    border-radius: 40px;
+    min-width: 1090px;
+}
+
+.welcome {
+    padding-left: 2vw;
+    padding-top: 20px;
+    font-size: 100px;
+    color: black;
+    align-content: left;
+}
+
+.headerButtons {
+    display: flex;
+    flex-direction: columns;
+    gap: 8px;
+    border: solid;
+    background-color: rgb(175, 170, 170);
+    padding: 20px 10px 20px 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.headerButtons button {
+    border-radius: 100px;
+    width: 9vw;
+    min-width: 80px;
+    height: 80px;
+    font-weight: bolder;
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.4);
+    cursor:pointer;
+}
+
+.headerButtons button:hover{
+    background-color:black;
+    color:white;
+    border:none;
+}
+
+.contentContainer{
+    margin:50px;
+}
+.skillsTitle{
+    font-style: bolder;
+    font-size:70px;
+}
+
+.skills{
+    font-size:50px;
+    margin:20px;
+}
+
+.fileButton{
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    display:inline;
+    justify-content:space-around;
+}
+
+.fileButton button{
+    background:none;
+    border:none;
+    cursor:pointer;
+    font-size:24px;
+    align-items:center;
+    text-align:center;
+    margin-right: 100px;
+    text-decoration: underline;
+}
+
+.fileButton button:hover{
+    border: solid;
+    background: white;
+    opacity: 0.5;
+}
+
+.filePic{         
+    width:200px;
+}

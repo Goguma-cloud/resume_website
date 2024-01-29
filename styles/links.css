@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.homePage {
+    /*margin: 5vh 10vh;*/
+    background-color: rgb(180, 180, 180);
+    height: 100vh;
+    min-height: 770px;
+    /*box-shadow: 20px 50px 80px rgba(0, 0, 0, 0.7);*/
+    border-radius: 40px;
+    /*background: white;*/
+    background: linear-gradient(to right, rgb(253, 253, 255), rgb(130, 114, 114));
+    min-width: 1270px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    border:solid;
+    border-color: rgb(96, 111, 112);
+    border-width:8px;
+    background-color:linear-gradient(to right, rgb(126, 126, 126), rgb(253, 253, 255));
+    border-radius: 40px;
+    min-width: 1090px;
+    margin-bottom: 30px;
+}
+
+.welcome {
+    padding-left: 2vw;
+    padding-top: 20px;
+    font-size: 100px;
+    color: black;
+    align-content: left;
+}
+
+.headerButtons {
+    display: flex;
+    flex-direction: columns;
+    gap: 8px;
+    border: solid;
+    background-color: rgb(175, 170, 170);
+    padding: 20px 10px 20px 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.headerButtons button {
+    border-radius: 100px;
+    width: 9vw;
+    min-width: 80px;
+    height: 80px;
+    font-weight: bolder;
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.4);
+    cursor:pointer;
+}
+
+.headerButtons button:hover{
+    background-color:black;
+    color:white;
+    border:none;
+}
+
+.linkInfo{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.linkInfo button{
+    width: 200px;
+    height: 80px;
+    border-radius: 30px;
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.4);
+    cursor:pointer;
+}
+
+.linkInfo button:hover{
+    background-color:black;
+    color:white;
+    border:none;
+}
+
+.linkInfo img{
+    width: 400px;
+    margin-top:20px;
+    border:solid;
+    border-radius: 40px;
+}

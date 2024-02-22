@@ -1,0 +1,315 @@
+@media only screen and (min-width: 451px){
+      
+    body {
+        font-family:Playfair Display;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .homePage {
+        /*margin: 5vh 10vh;*/
+        background-color: white;
+        height: auto;
+        /*box-shadow: 20px 50px 80px rgba(0, 0, 0, 0.7);*/
+        border-radius: 40px;
+        /*background: white;*/
+        min-width: 1120px;
+        
+    }
+    
+    .header {
+        display: flex;
+        min-width:1126px;
+        justify-content: space-between;
+        border:solid;
+        border-color: rgb(96, 111, 112);
+        border-width:8px;
+        background-color:linear-gradient(to right, rgb(126, 126, 126), rgb(253, 253, 255));
+        margin-bottom: 20px;
+    }
+
+    .welcome {
+        padding-left: 2vw;
+        padding-top: 20px;
+        font-size: 90px;
+        color: black;
+        align-content: left;
+    }
+    
+    .headerButtons {
+        display: flex;
+        flex-direction: columns;
+        gap: 8px;
+        background-color: transparent;
+        padding: 20px 10px 20px 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+    }
+    
+    .headerButtons button {
+        margin: 0 auto;
+        font-family:Playfair Display;
+        font-size: 30px;
+        width: 14vw;
+        min-width: 80px;
+        height: 95px;
+        font-weight: bolder;
+        background:transparent;
+        cursor:pointer;
+        border:none;
+    }
+    
+    .headerButtons button:hover{
+        color: black;
+        opacity: 0.5;
+        text-decoration: underline;
+    }
+    
+    .source {
+        display: flex;
+        flex-direction:columns;
+        grid-gap: 20px; /* Added grid gap for better spacing */
+    }
+    
+    .leftHalf {
+        font-size: 150px;
+        color: linear-gradient(to right, rgb(253, 253, 255), rgb(126, 126, 126));
+        width: 100%; /* Adjusted width to fill the entire space */
+        margin-left:150px;
+        font-style:bolder;
+        margin-top:200px;
+    }
+    
+    .subheader{
+        font-size:80px;
+        font-style:bold;
+    }
+    
+    
+    
+    .rightHalf {
+        width: 1100px; /* Adjusted width to fill the entire space */
+        margin-top:20px auto;
+        text-align:center;
+    }
+    .rightHalf button {
+        font-family:Playfair Display;
+        border-radius: 100px;
+        width: 12vw;
+        min-width: 80px;
+        height: 80px;
+        font-weight: bolder;
+        box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.4);
+        margin: 0 auto;
+        cursor:pointer;
+        display:inline;
+    }
+
+    .contactMe{
+        display:flex;
+        flex-direction: columns;
+        column-gap: 30px;
+        padding: 40px;
+        color: black; 
+        width: 100px;
+        cursor:pointer;
+    }
+
+    .gg-phone{
+        color :black
+    }
+    .gg-phone:hover {
+        color:blue;
+        opacity: 0.5;
+    }
+
+    .gg-mail{
+        color: black;
+    }
+    .gg-mail:hover {
+        color:blue;
+        opacity: 0.5;
+    }
+    
+    .profilePic{
+        width: 300px; /* Ensures the image doesn't exceed its container */
+        margin: 0 auto;
+        display:block;
+        padding: 10px;
+        border: solid;
+        border-radius: 50%;   
+        border-width:4px;
+        border-color:rgb(78, 97, 99);
+    }
+    .bio {
+        padding-top:10px;
+        margin-left: 40px; /* Added padding for better spacing */
+        margin-right:40px;
+        margin-bottom:10px;
+        font-size: 30px;
+        text-align:left;
+    
+    }
+    
+    .resume button{
+        font-size:30px;
+        min-width:200px;
+        width: 100%;
+        max-width:400px;
+        margin-bottom: 50px;
+    }
+    .resume:hover{
+        background-color:black;
+        color:white;
+        border:none;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    body, html {
+        margin: 0;
+        padding: 0;
+    }
+
+    .homePage {
+        height: auto;
+        width: 100vw;
+        background:white;
+    }
+
+    .header {
+        background-color: rgb(170, 179, 180);
+        max-width:100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 10px;
+        display: flex;
+        border:solid;
+        border-color: rgb(170, 179, 180);
+        border-width:20px;
+        
+    }
+
+    .welcome {
+        font-size: 80px;
+        text-align: center;
+        border:none;
+    }
+
+    .headerButtons {
+
+        text-align: center;
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: transparent;
+        border-radius: 20px;
+        padding-left: 0; /* Remove left padding */
+    }
+
+    .headerButtons button {
+        
+        height: 60px;
+        font-size: 28px;
+        width: 95%;
+        max-width: 200px;
+        box-sizing: border-box;
+        cursor: pointer;
+        border:none;
+        background:transparent;
+        border-radius: 10px;
+        box-shadow: none;
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+
+    .headerButtons button:hover {
+        background-color: black;
+        color: white;
+        text-decoration: underline;
+        border: none;
+        font-style:underline;
+    }
+
+    .contactMe{
+        display:flex;
+        flex-direction: columns;
+        column-gap: 30px;
+        padding: 40px;
+        color: black; 
+        width: 100px;
+        margin:0 auto;
+        cursor:pointer;
+    }
+
+    .gg-phone{
+        color :black
+    }
+    .gg-phone hover {
+        color:blue;
+        opacity: 0.5;
+    }
+
+    .gg-mail{
+        color: black;
+    }
+    .gg-mail hover {
+        color:blue;
+        opacity: 0.5;
+    }
+
+    .source {
+        display: grid;
+        width: auto;
+    }
+
+    .leftHalf {
+        font-size: 60px;
+        
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .subheader {
+        font-size: 40px;
+    }
+
+    .rightHalf {
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+    }
+
+    .profilePic {
+        width: 100%;
+        max-width: 200px;
+        border-radius: 50%;
+        border:solid;
+        padding: 10px ;
+    }
+
+    .bio {
+        font-size: 30px;
+        text-align: left;
+        padding: 30px ;
+    }
+
+    .resume {
+        cursor: pointer;
+        border-radius: 40px;
+        height: 60px;
+        width: 100%;
+        max-width: 200px;
+        margin-bottom: 30px;
+    }
+
+    .resume:hover {
+        background-color: black;
+        color: white;
+        border: none;
+    }
+}

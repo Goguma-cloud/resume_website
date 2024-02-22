@@ -1,0 +1,223 @@
+@media only screen and (min-width: 451px){
+    body {
+        font-family:Playfair Display;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .homePage {
+        /*margin: 5vh 10vh;*/
+        background-color: white;
+        height: auto;
+        /*box-shadow: 20px 50px 80px rgba(0, 0, 0, 0.7);*/
+        border-radius: 40px;
+        /*background: white;*/
+        min-width:800px;
+    }
+    
+    .header {
+        display: flex;
+        justify-content: space-between;
+        border:solid;
+        border-color: rgb(96, 111, 112);
+        border-width:8px;
+        background-color:linear-gradient(to right, rgb(126, 126, 126), rgb(253, 253, 255));
+    }
+    
+    .welcome {
+        padding-left: 2vw;
+        padding-top: 20px;
+        font-size: 90px;
+        color: black;
+        align-content: left;
+    }
+    
+    .headerButtons {
+        
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+        background-color: transparent;
+        padding: 20px 10px 20px 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+    }
+    
+    .headerButtons button {
+        font-family:Playfair Display;
+        font-size: 30px;
+        width: 14vw;
+        min-width: 80px;
+        height: 95px;
+        font-weight: bolder;
+        background:transparent;
+        cursor:pointer;
+        border:none;
+    }
+    
+    .headerButtons button:hover{
+        color: black;
+        opacity: 0.5;
+        text-decoration: underline;
+    }
+    
+    .contentContainer{
+        margin:50px;
+    }
+    .skillsTitle{
+        font-family:Playfair Display;
+        font-style: bolder;
+        font-size:70px;
+    }
+    
+    .skills{
+        font-family:Playfair Display;
+        font-size:50px;
+        margin:20px;
+    }
+    
+    .fileButton{
+        display:grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ;
+        display:inline;
+        justify-content:space-around;
+        padding-bottom: 40px;
+    }
+    
+ .fileButton button {
+        font-family: Playfair Display;
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: 24px;
+        align-items: center;
+        text-align: center;
+        margin-right: 100px;
+        text-decoration: underline;
+
+        /* Add transparent border by default */
+        border: 2px solid transparent;
+    }
+
+    .fileButton button:hover {
+        /* Make the border visible on hover */
+        border: 2px solid black; /* You can adjust the color as needed */
+        background: white;
+        opacity: 0.5;
+    }
+    
+    .filePic{         
+        width:200px;
+    }
+}
+
+@media only screen and (max-width: 450px){
+        body, html {
+            margin: 0;
+            padding: 0;
+        }
+    
+        .homePage {
+            height: auto;
+            width: 100vw;
+            background:white;
+        }
+    
+        .header {
+            background-color: rgb(170, 179, 180);
+            max-width:100%;
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            padding: 10px;
+            display: flex;
+            border:solid;
+            border-color: rgb(170, 179, 180);
+            border-width:20px;
+            
+        }
+    
+        .welcome {
+            font-size: 80px;
+            text-align: center;
+            border:none;
+        }
+    
+        .headerButtons {
+            text-align: center;
+            max-width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            background-color: transparent;
+            border-radius: 20px;
+            padding-left: 0; /* Remove left padding */
+        }
+    
+        .headerButtons button {
+            
+            height: 60px;
+            font-size: 28px;
+            width: 95%;
+            max-width: 200px;
+            box-sizing: border-box;
+            cursor: pointer;
+            border:none;
+            background:transparent;
+            border-radius: 10px;
+            box-shadow: none;
+            margin-top:10px;
+            margin-bottom:10px;
+        }
+    
+        .headerButtons button:hover {
+            background-color: black;
+            color: white;
+            text-decoration: underline;
+            border: none;
+            font-style:underline;
+        }
+    .skills{
+        font-size:30px;
+    }
+
+    .contentContainer{
+        margin:50px;
+    }
+    .skillsTitle{
+        font-style: bolder;
+        font-size:70px;
+    }
+    
+    .skills{
+        font-size:30px;
+        margin:20px;
+    }
+    
+    .fileButton{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .fileButton button{
+        background:none;
+        border:none;
+        cursor:pointer;
+        font-size:24px;
+        align-items:center;
+        text-align:center;
+        margin-right: 20px;
+        margin-bottom: 50px;
+        text-decoration: underline;
+    }
+    
+    .fileButton button:hover{
+        border: solid;
+        background: white;
+        opacity: 0.5;
+    }
+    
+    .filePic{    
+        width:50px;
+    }
+}
